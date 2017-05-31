@@ -8,7 +8,7 @@ namespace factoriel1
     {
         static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
+            int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int factoriel = 1;
             while (true)
@@ -16,7 +16,7 @@ namespace factoriel1
                 if (b <= 1)
                 {
                     break;
-                }factoriel *= n;
+                }factoriel *= a;
                 b--;
 
             }
