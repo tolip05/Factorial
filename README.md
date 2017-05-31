@@ -9,15 +9,15 @@ namespace factoriel1
         static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            int m = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
             int factoriel = 1;
             while (true)
             {
-                if (m <= 1)
+                if (b <= 1)
                 {
                     break;
                 }factoriel *= n;
-                m--;
+                b--;
 
             }
             Console.WriteLine(factoriel);
