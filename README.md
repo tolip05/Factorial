@@ -8,6 +8,7 @@ namespace factoriel1
     {
         static void Main()
         {
+		int c = 0;
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int factoriel = 1;
